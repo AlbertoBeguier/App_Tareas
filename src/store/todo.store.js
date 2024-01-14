@@ -7,13 +7,7 @@ export const Filters = {
 };
 
 const state = {
-  todos: [
-    new Todo("1"),
-    new Todo("2"),
-    new Todo("3"),
-    new Todo("4"),
-    new Todo("5"),
-  ],
+  todos: [new Todo("Tarea de ejemplo")],
   filter: Filters.All,
 };
 
